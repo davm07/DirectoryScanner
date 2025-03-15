@@ -1,32 +1,32 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The DirectoryScanner application is a command-line interface (CLI) tool that scans a directory and its subdirectories for files with a specified extension. It displays the directory information in the console. If the user specifies an extension but no files with that extension are found, it will display a warning message. If the user does not specify an extension, it will display all files in the directory and its subdirectories. If the path to the directory specified by the user is invalid, the console will display an error message. The purpose of this project is to practice using the command line to interact with the file system and display some information about directories and files. I also create this project to understand the basics of Typescript and how powerful it is. This project can help the user to scan directories in order to find files with a specific extension and show the relation between them in a hierarchical structure.
 
-{Provide a description of the software that you wrote to demonstrate the TypeScript language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/YnMdKpUXDco)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The project was developed using:
 
-{Describe the programming language that you used and any libraries.}
+1. Visual Studio Code as the main IDE
+2. Node.js v20.17.0 as the runtime environment
+3. TypeScript v5.8.2 as the programming language
+4. @inquirer/prompts v7.3.3 as the package for command-line interface (CLI) interactions
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Here are some useful websites that I used during the development of this project:
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Node.js "fs/promises" Documentation](https://nodejs.org/api/fs.html#promise-example)
+- [Node.js "fs/stat" Documentation](https://nodejs.org/es/learn/manipulating-files/nodejs-file-stats)
+- [Package "@inquirer/prompts" Documentation](https://www.npmjs.com/package/@inquirer/prompts)
+- [Read files in Node.js](https://dev.to/masanori_msl/typescriptexpress-search-and-load-local-files-4koa)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Some ideas for future work on this project:
 
-- Item 1
-- Item 2
-- Item 3
+- Allow the user to keep scanning directories until they want to stop
+- Add a feature to allow the user select multiple extensions from the menu to filter by
+- Add more filter options, such as date range, size range, and file name pattern
